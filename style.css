@@ -1,0 +1,104 @@
+a {
+  text-decoration: none;
+
+}
+a:hover {
+  text-decoration: underline;
+}
+p {
+  display: block;
+}
+.header {
+  text-align: justify;
+  vertical-align: top;
+  width: 70%;
+  font-size: 150%;
+  margin:0 auto;
+  padding:.5em 1em;
+
+}
+.icons {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.icons-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+
+.Wikipedia {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/enwiki-1.5x.png");
+
+}
+
+.Wiktionary {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/WiktionaryEn.svg/135px-WiktionaryEn.svg.png");
+}
+.Wikiquote {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/wikiquote.png")
+}
+
+.Wikibooks {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/wikibooks.png");
+}
+
+.Wikisource {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/wikisource.png");
+}
+
+.Wikinews {
+  background-image: url("https://upload.wikimedia.org/wikinews/en/b/bc/Wiki.png");
+}
+
+.Wikiversity {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/enwikiversity.png");
+}
+
+.Wikispecies {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/specieswiki.png");
+}
+
+.Mediawiki {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/mediawikiwiki.png");
+}
+
+.Wikidata {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/wikidatawiki.png");
+}
+
+.Commons {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/commonswiki.png");
+}
+
+.Voyage {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/wikivoyage.png");
+}
+
+.Meta {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/metawiki.png");
+}
+
+.Incubator {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/incubatorwiki.png");
+}
+
+.Labs {
+  background-image: url("https://wikitech.wikimedia.org/w/images/c/cf/Labslogo_thumb.png");
+}
+
+.Foundation {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/foundationwiki.png");
+}
